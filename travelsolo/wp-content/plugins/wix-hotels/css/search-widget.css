@@ -1,0 +1,117 @@
+.wix-hotels-search-widget {}
+
+.wix-hotels-search-widget input,
+.wix-hotels-search-widget button {
+  padding: .5em;
+  font-size: 100%;
+}
+.wix-hotels-search-widget button {
+  padding: 1em;
+  text-align: center;
+}
+
+.wix-hotels-search-widget label {
+  display: block;
+  margin-bottom: .25em;
+}
+
+
+.wix-hotels-search-widget-vertical .wix-hotels--search-widget--field {
+  margin-bottom: .5em;
+}
+.wix-hotels-search-widget-vertical .wix-hotels--search-widget--field input {
+  width: 100%;
+}
+
+.wix-hotels-search-widget-vertical .wix-hotels--search-widget--submit {
+  clear: both;
+  padding-top: .5em;
+}
+
+.wix-hotels-search-widget-vertical .wix-hotels--search-widget--submit label {
+  display: none;
+}
+
+.wix-hotels-search-widget-vertical .wix-hotels--search-widget--submit button {
+  width: 100%;
+}
+
+.wix-hotels-search-widget-vertical .wix-hotels--search-widget--field--adults,
+.wix-hotels-search-widget-vertical .wix-hotels--search-widget--field--children {
+  float: left;
+  width: calc(50% - .5em);
+}
+
+.wix-hotels-search-widget-vertical .wix-hotels--search-widget--field--children {
+  margin-left: 1em;
+}
+
+
+.wix-hotels-search-widget-horizontal .wix-hotels--search-widget label {
+  display: block;
+}
+
+.wix-hotels-search-widget-horizontal .wix-hotels--search-widget--field {
+  float: left;
+}
+
+.wix-hotels-search-widget-horizontal .wix-hotels--search-widget--field--check-in,
+.wix-hotels-search-widget-horizontal .wix-hotels--search-widget--field--check-out {
+  width: 25%;
+}
+
+.wix-hotels-search-widget-horizontal .wix-hotels--search-widget--field--adults,
+.wix-hotels-search-widget-horizontal .wix-hotels--search-widget--field--children {
+  width: 15%;
+}
+
+.wix-hotels-search-widget-horizontal .wix-hotels--search-widget--submit {
+  float: left;
+  width: 20%;
+}
+
+.wix-hotels-search-widget-horizontal .wix-hotels--search-widget--field input,
+.wix-hotels-search-widget-horizontal .wix-hotels--search-widget--submit button {
+  font-size: 100%;
+  height: 3em;
+  padding: .5em .5em;
+  box-sizing: border-box;
+}
+
+.wix-hotels-search-widget-horizontal .wix-hotels--search-widget--field input {
+  width: calc(100% - .5em);
+}
+.wix-hotels-search-widget-horizontal .wix-hotels--search-widget--submit button {
+  width: 100%;
+}
+
+.wix-hotels-search-widget-horizontal .wix-hotels--search-widget--submit button {
+  border: 0 none;
+}
+
+@media screen and (max-width: 435px) {
+  .wix-hotels-search-widget-horizontal .wix-hotels--search-widget--field input {
+    width: 100%;
+  }
+
+  .wix-hotels-search-widget-horizontal .wix-hotels--search-widget--field--check-in,
+  .wix-hotels-search-widget-horizontal .wix-hotels--search-widget--field--check-out {
+    margin-bottom: .5em;
+  }
+
+  .wix-hotels-search-widget-horizontal .wix-hotels--search-widget--field--check-in,
+  .wix-hotels-search-widget-horizontal .wix-hotels--search-widget--field--check-out,
+  .wix-hotels-search-widget-horizontal .wix-hotels--search-widget--field--adults,
+  .wix-hotels-search-widget-horizontal .wix-hotels--search-widget--field--children {
+    width: calc(50% - .25em);
+  }
+
+  .wix-hotels-search-widget-horizontal .wix-hotels--search-widget--field--check-in,
+  .wix-hotels-search-widget-horizontal .wix-hotels--search-widget--field--adults {
+    margin-right: .5em;
+  }
+
+  .wix-hotels-search-widget-horizontal .wix-hotels--search-widget--submit {
+    width: 100%;
+  }
+}

@@ -1,0 +1,76 @@
+html, body {
+  background: white;
+}
+.toplevel_page_wix_hotels::after {
+  border-right-color: white !important;
+}
+
+#wpcontent {
+  position: relative;
+}
+
+#wix-hotels-back-office {
+  position: absolute;
+  width: calc(100% + 20px);
+  margin-left: -20px;
+  z-index: 999;
+  top: 0;
+  left: 0;
+}
+
+#wix-hotels-onboarding {
+  color: #2b5672;
+  text-align: center;
+  background: white;
+  padding: 6em 2em;
+  margin: 2em;
+  margin-left: calc(2em - 20px);
+}
+
+#wix-hotels-onboarding,
+#wix-hotels-onboarding p,
+#wix-hotels-onboarding h1 {
+  font-family: 'HelveticaNeueW01-Thin', 'HelveticaNeueW02-Thin', "HelveticaNeueW10-35Thin", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  color: #2b5672;
+  line-height: 1;
+}
+#wix-hotels-onboarding p {
+  color: #7a92a5;
+  font-size: 18px;
+  margin: .5em 0 2em;
+}
+#wix-hotels-onboarding h1 {
+  font-family: 'HelveticaNeueW01-Thin', 'HelveticaNeueW02-Thin', "HelveticaNeueW10-35Thin", Helvetica, Arial, sans-serif;
+  font-size: 36px;
+  margin: .7em 0 0;
+}
+
+#wix-hotels-onboarding button {
+  font-family: 'HelveticaNeueW01-Thin', 'HelveticaNeueW02-Thin', "HelveticaNeueW10-35Thin", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  background: #3899ec;
+  border: 0 none;
+  border-radius: 32px;
+  box-shadow: none;
+  text-shadow: none;
+  font-size: 16px;
+  min-width: 180px;
+  padding: .5em .75em;
+  height: auto;
+}
+
+#wix-hotels-logo {
+  margin: 0 auto;
+  width: 86px;
+  height: 86px;
+  text-align: center;
+  background: #00cdcd;
+  border-radius: 100%;
+}
+
+#wix-hotels-logo img {
+  margin-top: 20px;
+  width: 53px;
+  height: 42px;
+}

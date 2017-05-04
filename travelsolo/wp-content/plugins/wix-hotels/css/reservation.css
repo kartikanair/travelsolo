@@ -1,0 +1,53 @@
+.wix-hotels--reservation--no {
+  font-size: 150%;
+}
+
+.wix-hotels--reservation--details {
+  float: left;
+  width: 40%;
+}
+
+.wix-hotels--reservation--details img {
+  max-width: 100%;
+  margin-bottom: 1em;
+}
+
+.wix-hotels--reservation--hotel {
+  float: right;
+  width: 55%;
+  margin-left: 5%;
+}
+
+#wix-hotels--reservation label {
+  font-size: 90%;
+  font-style: italic;
+}
+
+.wix-hotels--reservation--hotel--field,
+.wix-hotels--reservation--details--field {
+  margin-bottom: .5em;
+}
+
+.wix-hotels--reservation--details--field--from,
+.wix-hotels--reservation--details--field--to {
+  float: left;
+  width: 50%;
+  margin-bottom: 1em;
+}
+
+.wix-hotels--reservation--details--guests,
+.wix-hotels--reservation--details--subtotal,
+.wix-hotels--reservation--details--tax,
+.wix-hotels--reservation--details--total
+{
+  width: 50%;
+  float: right;
+}
+
+.wix-hotels--reservation--details hr {
+  margin: .5em 0;
+}
+
+.wix-hotels--reservation--details--field--total {
+  font-size: 120%;
+}

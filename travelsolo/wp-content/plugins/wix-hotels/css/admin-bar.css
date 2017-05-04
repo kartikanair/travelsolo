@@ -1,0 +1,8 @@
+#wp-admin-bar-wix-hotels .ab-item::before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  background-image: url(../images/menu-icon.png) !important;
+  background-repeat: no-repeat;
+  background-position: center center;
+}

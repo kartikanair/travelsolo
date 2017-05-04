@@ -1,0 +1,32 @@
+.wix-hotels-availability-calendar-widget {}
+
+.wix-hotels-availability-calendar-widget td,
+.wix-hotels-availability-calendar-widget th {
+  white-space: nowrap;
+  text-align: center;
+}
+
+.wix-hotels--availability-widget--header {
+  margin-bottom: .5em;
+}
+
+.wix-hotels--availability-widget--header--previous,
+.wix-hotels--availability-widget--header--title,
+.wix-hotels--availability-widget--header--next {
+  display: inline-block;
+  text-align: center;
+}
+
+.wix-hotels--availability-widget--header--previous,
+.wix-hotels--availability-widget--header--next {
+  width: 14%;
+  cursor: pointer;
+}
+
+.wix-hotels--availability-widget--header--title {
+  width: 72%;
+}
+
+.wix-hotels--availability-widget--booked {
+  text-decoration: line-through;
+}

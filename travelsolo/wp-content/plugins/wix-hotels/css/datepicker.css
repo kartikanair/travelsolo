@@ -1,0 +1,74 @@
+.wix-hotels--datepicker {
+  width: 320px;
+  background: white;
+  padding: .5em;
+  margin-top: 3px;
+  border: 1px solid #d1d1d1;
+  border-radius: 2px;
+  box-shadow: 0 0 16px rgba(0,0,0,.2);
+}
+
+.wix-hotels--datepicker .ui-datepicker-prev,
+.wix-hotels--datepicker .ui-datepicker-next {
+  text-align: center;
+  width: 30px;
+  cursor: pointer;
+}
+.wix-hotels--datepicker .ui-datepicker-prev {
+  float: left;
+}
+.wix-hotels--datepicker .ui-datepicker-next {
+  float: right;
+}
+.wix-hotels--datepicker .ui-datepicker-prev span,
+.wix-hotels--datepicker .ui-datepicker-next span {
+  display: none;
+}
+.wix-hotels--datepicker .ui-datepicker-prev::before,
+.wix-hotels--datepicker .ui-datepicker-next::before {
+  content: '';
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border: 8px solid transparent;
+  border-top-width: 6px;
+  border-bottom-width: 6px;
+  vertical-align: middle;
+}
+.wix-hotels--datepicker .ui-datepicker-prev::before {
+  border-left-width: 0px;
+  border-right-color: black;
+}
+.wix-hotels--datepicker .ui-datepicker-next::before {
+  border-right-width: 0px;
+  border-left-color: black;
+}
+
+.wix-hotels--datepicker .ui-datepicker-title {
+  text-align: center;
+  margin-bottom: .75em;
+  margin-top: .5em;
+}
+
+.wix-hotels--datepicker table {
+  border: 0 none;
+  margin: 0;
+  width: calc(320px - 1em);
+}
+.wix-hotels--datepicker table td,
+.wix-hotels--datepicker table th {
+  padding: .5em;
+  border: 0 none;
+  text-align: center;
+}
+
+.wix-hotels--datepicker table th {
+  border-top: 0 none;
+  border-left: 0 none;
+  border-right: 0 none;
+}
+
+.wix-hotels--datepicker .ui-datepicker-current-day {
+  border: 1px solid #d1d1d1;
+  border-radius: 3px;
+}
